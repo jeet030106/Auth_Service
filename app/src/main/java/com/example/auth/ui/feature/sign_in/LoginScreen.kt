@@ -83,6 +83,7 @@ fun LoginScreen(
         )
 
 
+        Spacer(modifier = Modifier.height(16.dp))
 
         when (val state = loginState) {
             is LoginViewModel.LoginState.Loading -> {

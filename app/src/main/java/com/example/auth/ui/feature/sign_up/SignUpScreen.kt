@@ -89,6 +89,7 @@ fun SignUpScreen(
             isPassword = true
         )
 
+        Spacer(modifier = Modifier.height(16.dp))
 
         when (val state = signUpState) {
             is SignUpState.Loading -> {
